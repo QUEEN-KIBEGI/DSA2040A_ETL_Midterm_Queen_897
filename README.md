@@ -41,4 +41,4 @@ This project implements an ETL pipeline for sales data as part of the DSA 2040 A
 4. Check outputs in `data/transformed/` and `loaded/` folders.
 
 ## Screenshot
-Sales by Product(sales_by_product.png)
+![image](https://github.com/user-attachments/assets/d1c8381d-2366-47c7-90f5-9b4381e8e8c4)
