@@ -42,3 +42,6 @@ This project implements an ETL pipeline for sales data as part of the DSA 2040 A
 
 ## Screenshot
 ![image](https://github.com/user-attachments/assets/d1c8381d-2366-47c7-90f5-9b4381e8e8c4)
+
+The bar chart visually summarizes the total sales revenue (in dollars) for each product category in the raw_data.csv dataset (100 rows). It uses the total_price (calculated as quantity * unit_price) aggregated by the product column (e.g., 'Tablet', 'Laptop', 'Monitor', 'Phone'). The x-axis lists the product types, while the y-axis shows the total sales in dollars. Each bar’s height represents the cumulative revenue for that product, with taller bars indicating higher sales. This helps identify which products are the most and least profitable based on the transformed raw data, after handling missing values (filled with median for quantity, mean for unit_price), removing duplicates, and calculating total_price. The chart serves as a bonus visualization, offering a quick insight into sales trends for business decision-making.
+
